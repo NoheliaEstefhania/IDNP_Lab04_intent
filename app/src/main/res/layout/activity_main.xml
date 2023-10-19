@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.236" />
 
     <EditText
-        android:id="@+id/editTextUsuario2"
+        android:id="@+id/editTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -80,4 +80,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.59" />
+
+    <TextView
+        android:id="@+id/textViewConfirmation"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:text="..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
 </androidx.constraintlayout.widget.ConstraintLayout>
